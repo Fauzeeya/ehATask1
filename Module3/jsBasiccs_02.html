@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JS_Challenge_01</title>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <script>
+      var grade = prompt("what is your grade?");
+      if (grade <= 100 && grade >= 70) {
+        alert("your grade is : A");
+        document.write("<h1>Your grade is: A</h2>");
+      } else if (grade <= 60 && grade >= 50) {
+        alert("Your grade is : C");
+        document.write("<h1>Your grade is: C</h2>");
+      } else if (grade <= 40 && grade >= 0) {
+        alert("Your grade is : F");
+        document.write("<h1>Your grade is: F</h2>");
+      } else {
+        document.write("<h1>You have no grade</h2>");
+      }
+    </script>
+  </body>
+</html>
